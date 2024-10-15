@@ -1,0 +1,31 @@
+name: handyhobby2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_driver:
+    sdk: flutter
+  youtube_player_flutter: ^9.1.1
+  shared_preferences: ^2.0.0
+  http: ^1.2.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/knitting.jpg
+    - assets/handmade-bracelets.jpg
+    - assets/scented-candle.jpg
+    - assets/notebook.jpg
+    - assets/Basic-Crochet.jpg
